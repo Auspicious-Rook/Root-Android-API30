@@ -88,7 +88,7 @@ Have frida-tools installed on you host. `pip install frida-tools`
 
 When running the emulator, I put the emulator on my path and use the command `emulator -writable-system -avd EMULATOR_NAME -http-proxy BURP_HOST_IP:PORT`. I use this to proxy my emulator through Burp on my Kali linux VM.
 
-In burp, add a proxy listener and bind it to the port used in the above command and then select all interfaces. This shouldallow you to intercept all traffic. No certificate install should be required do to the TrustMeAllready app!
+In burp, add a proxy listener and bind it to the port used in the above command and then select all interfaces. This should allow you to intercept all traffic. No certificate install should be required due to the TrustMeAllready app!
 
 ![Screenshot 2023-04-24 at 3 40 43 PM](https://user-images.githubusercontent.com/130098009/234112398-04858390-2e95-4431-b943-cf80dab6cbee.png)
 
