@@ -72,7 +72,7 @@ Have frida-tools installed on you host. `pip install frida-tools`
 
 ![Screenshot 2023-04-24 at 2 27 21 PM](https://user-images.githubusercontent.com/130098009/234096348-71a0e86b-6d4d-49b7-bffd-99b4820f4b9f.png)
 
-## Install and Start the Frida Serrver
+## Install and Start the Frida Server
 
 27. On the host computer, browse to https://github.com/frida/frida/releases and download the latest frida-server-android-YOUR_EMULATOR_ARCH.xz.
 28. Extract this file. In macOS just use the finder app, in Linux use the command `unxz frida-server.xz`.
